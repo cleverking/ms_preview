@@ -8,7 +8,7 @@
         var defaults = {
             event: 'click',
             current_li: 0,// 被选择的
-            jumpIndex: 10// 每次跳跃个数
+            jumpIndex: 1// 每次跳跃个数
         };
         var opts = $.extend({}, defaults, options);
         var event = opts.event;
