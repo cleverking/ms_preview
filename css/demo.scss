@@ -35,6 +35,7 @@
 		height: 559px;
 		b{
 			background: rgba(0, 0, 0, .6);
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
 			width: 100%;
 			height: 30px;
 			display: block;
@@ -68,6 +69,7 @@
 				}
 				.cover{
 					background: rgba(0, 0, 0, .4);
+					filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
 					position: absolute;
 					left: 0;
 					top: 0;
