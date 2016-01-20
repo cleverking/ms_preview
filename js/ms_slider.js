@@ -33,8 +33,8 @@
             height: ul_height
         });
         $up.css({display: 'none'});
-        if(li_size < $nav.height() / one_height){
-            $down.css({display: 'none'});
+        if(li_size > $nav.height() / one_height){
+            $down.css({display: 'block'});
         }
         $main.html('<img src="' + $nav.find('ul li:eq(' + current_li + ')').children('img').attr('src') + '"/>');
         $nav.find('ul li:eq(' + current_li + ')').addClass('current');
