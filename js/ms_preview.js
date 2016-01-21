@@ -1,10 +1,10 @@
 /**
  * 2016-01-19
  * author Chooin
- * https://github.com/Chooin/ms_slider
+ * https://github.com/Chooin/ms_preview
  */
 ;(function($){  
-    $.fn.ms_slider = function (options){
+    $.fn.ms_preview = function (options){
         var defaults = {
             event: 'click',
             current_li: 0,// 被选择的
@@ -16,8 +16,8 @@
         var jumpIndex = opts.jumpIndex;
 
         var $this = this;
-        var $main = $this.find('.slider-main');
-        var $nav = $this.find('.slider-nav');
+        var $main = $this.find('.preview-main');
+        var $nav = $this.find('.preview-nav');
         var $up = $this.find('.up');
         var $down = $this.find('.down');
 

@@ -12,25 +12,25 @@ ul,
 li {
   list-style: none; }
 
-.slider {
+.preview {
   height: 559px;
   width: 900px;
   overflow: hidden; }
-  .slider .slider-main {
+  .preview .preview-main {
     float: left;
     overflow: hidden;
     width: 745px;
     height: 559px; }
-    .slider .slider-main img {
+    .preview .preview-main img {
       width: 745px;
       height: 559px; }
-  .slider .slider-nav {
+  .preview .preview-nav {
     float: right;
     position: relative;
     overflow: hidden;
     width: 150px;
     height: 559px; }
-    .slider .slider-nav b {
+    .preview .preview-nav b {
       background: rgba(0, 0, 0, 0.6);
       background: #000 \9;
       filter: alpha(opacity=60);
@@ -41,7 +41,7 @@ li {
       cursor: pointer;
       left: 0;
       z-index: 11; }
-      .slider .slider-nav b em {
+      .preview .preview-nav b em {
         width: 17px;
         height: 10px;
         display: block;
@@ -49,31 +49,31 @@ li {
         left: 50%;
         top: 12px;
         margin-left: -8px;
-        background: url(../img/ms_slider_arrow.png) no-repeat;
-        background: -webkit-image-set(url(../img/ms_slider_arrow.png) 1x, url(../img/ms_slider_arrow@2x.png) 2x) no-repeat; }
-      .slider .slider-nav b.up {
+        background: url(../img/ms_preview-arrow.png) no-repeat;
+        background: -webkit-image-set(url(../img/ms_preview-arrow.png) 1x, url(../img/ms_preview-arrow@2x.png) 2x) no-repeat; }
+      .preview .preview-nav b.up {
         top: 0; }
-      .slider .slider-nav b.down {
+      .preview .preview-nav b.down {
         bottom: 0; }
-        .slider .slider-nav b.down em {
+        .preview .preview-nav b.down em {
           background-position: -17px 0; }
-    .slider .slider-nav ul {
+    .preview .preview-nav ul {
       width: 150px;
       position: absolute;
       z-index: 10;
       top: 0;
       left: 0; }
-      .slider .slider-nav ul li {
+      .preview .preview-nav ul li {
         margin-bottom: 5px;
         position: relative;
         cursor: pointer;
         width: 150px;
         height: 112px;
         background: #f0f0f0; }
-        .slider .slider-nav ul li img {
+        .preview .preview-nav ul li img {
           width: 150px;
           height: 112px; }
-        .slider .slider-nav ul li .cover {
+        .preview .preview-nav ul li .cover {
           background: rgba(0, 0, 0, 0.4);
           background: #000 \9;
           filter: alpha(opacity=40);
@@ -83,7 +83,7 @@ li {
           width: 150px;
           height: 112px;
           z-index: 1; }
-        .slider .slider-nav ul li.current .cover {
+        .preview .preview-nav ul li.current .cover {
           background: transparent;
           border: 4px solid #49bff5;
           width: 142px;
